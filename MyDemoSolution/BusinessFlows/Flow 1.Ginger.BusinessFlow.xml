@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="4" LastUpdateBy="dp" LastUpdate="202006151336" />
+<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="6" LastUpdateBy="dp" LastUpdate="202006151450" />
 <BusinessFlow Guid="28cf7820-6706-4592-9a90-94627d206672" Name="login to fb" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Facbook">
@@ -14,6 +14,24 @@
 <ActInputValue Guid="3eaaa36e-0cf1-44a2-a990-e39366e51659" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActBrowserElement>
+<ActUIElement Active="True" Description="UIElement Action" Guid="ec5c2ec3-2b86-4e44-ac8b-c9164d2e3a95" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="50e26180-03f0-4bcb-970e-27c07de0305b" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="4ce46a19-8e46-4883-a099-e103d0ae99fe" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="UIElement Action" Guid="936bd9ad-fb70-4ce6-9449-3a4f2e9e7f1f" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="42c91ecd-89eb-4961-bc82-8c481cc3dfbc" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="0b132f1b-88e2-4b91-ae03-48c01dd3705a" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="UIElement Action" Guid="7be7fb7e-a59f-4f01-a0bd-d175eb5121b6" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="337af244-fe08-4e3d-aaee-a2dd99539530" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="5414c411-7221-4e1e-b43f-1b9c3e17ec0a" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
 </Acts>
 </Activity>
 </Activities>
@@ -21,7 +39,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="7af1143a-9ebf-4bef-ac13-8ad2d7dce296" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ActivityName="Activity 1" Guid="a48c9bcb-93cb-4b55-abb3-2900a722a080" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ActivityName="Activity 1" Guid="7c19e1b6-f471-445c-8d4e-3cf35d9b0288" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
